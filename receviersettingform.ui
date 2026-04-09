@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>recevierSettingForm</class>
+ <widget class="QWidget" name="recevierSettingForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+	
+	font: 25 9pt &quot;Alibaba PuHuiTi 3.0&quot;;
+	text-decoration: underline;
+	color: rgb(0, 0, 255);
+	background-color:transparent;
+	border:none;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="minimumSize">
+      <size>
+       <width>220</width>
+       <height>180</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>接受区设置</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QSplitter" name="splitter">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QWidget" name="layoutWidget">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetMinimumSize</enum>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="checkBox">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>将接收到的数据直接存储到文件</string>
+            </property>
+            <property name="toolTipDuration">
+             <number>1000</number>
+            </property>
+            <property name="text">
+             <string>接收转向文件</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_2">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>每次接收到信息就换行</string>
+            </property>
+            <property name="toolTipDuration">
+             <number>1000</number>
+            </property>
+            <property name="text">
+             <string>自动换行显示</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_3">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>将接收到的数据以十六进制进行显示</string>
+            </property>
+            <property name="toolTipDuration">
+             <number>1000</number>
+            </property>
+            <property name="text">
+             <string>十六进制显示</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_4">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>暂停接收区显示</string>
+            </property>
+            <property name="toolTipDuration">
+             <number>1000</number>
+            </property>
+            <property name="text">
+             <string>暂停接收显示</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="layoutWidget_2">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetMaximumSize</enum>
+          </property>
+          <item>
+           <widget class="QPushButton" name="saveDataButton">
+            <property name="font">
+             <font>
+              <family>Alibaba PuHuiTi 3.0</family>
+              <pointsize>9</pointsize>
+              <weight>3</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="toolTip">
+             <string>将接收区的数据保存到目标路径</string>
+            </property>
+            <property name="toolTipDuration">
+             <number>1000</number>
+            </property>
+            <property name="text">
+             <string>保存数据</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="clearButton">
+            <property name="font">
+             <font>
+              <family>Alibaba PuHuiTi 3.0</family>
+              <pointsize>9</pointsize>
+              <weight>3</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="toolTip">
+             <string>清除显示区的数据</string>
+            </property>
+            <property name="toolTipDuration">
+             <number>1000</number>
+            </property>
+            <property name="text">
+             <string>清除显示</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
