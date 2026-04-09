@@ -97,6 +97,8 @@ Modbus 增强：支持 0x05, 0x06, 0x0F, 0x10 等更多功能码；支持从 JSO
 
 •
 国际化与规范化：全面使用 tr() 函数包裹字符串，完善 README.md 和代码注释，遵循 Google C++ Style 或 Qt Coding Style。
+![综合串口调试助手流程图](https://github.com/user-attachments/assets/0858d792-647f-4288-80e9-2e96bac9bb00)
+
 
 5. 总结
 
